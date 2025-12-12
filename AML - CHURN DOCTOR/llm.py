@@ -304,7 +304,7 @@ def generate_email(owner_name: str, business_name: str, period_str: str, insight
     body = f"""
 Dear {owner_name},
 
-Here is your weekly churn analysis report for {business_name} covering the period: {period_str}
+Here is your Monthly churn analysis report for {business_name} covering the period: {period_str}
 
 {insights.get('headline', 'Churn Analysis Summary')}
 
